@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+    height: 100vh;
+
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 10vh;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 50%;
+    height: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* margin: 10pxp; */
+    padding: 10px;
+    /* align-items: center; */
+}
+
+.container > .head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30%
+}
+
+.container .item {
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20%
+}
+
+.container > p{
+    display: inline-block;
+}
+
+.itemholder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    width: 100%;
+}
+
+.buttons {
+    /* margin-top: 10px; */
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    /* padding: 10px; */
+}
+
+.buttons button {
+    padding: 5px;
+}
+
+/* @media and screen and (min-width: 768px) {} */
